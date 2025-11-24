@@ -12,7 +12,7 @@ export default function Taskform({addTask}) {
       setPriority("Medium");
       setCategory("General");
     }
- 
+
   return (
     <div>
       <form className="task-form" onSubmit={handlesubmit}>
